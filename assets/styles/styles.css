@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+body {
+  background-color: #0f1120;
+  color: #e6ecf6;
+  font-family: system-ui, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.container {
+  width: min(100% - 30px, 1000px);
+  margin-inline: auto;
+  padding: 20px 0;
+}
+
+h1 {
+  color: #53add4;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+}
+
+.intro {
+  color: #bcd0e6;
+  font-size: 15px;
+  margin: 10px 0 20px 0;
+}
+
+button {
+  background-color: #1c2340;
+  color: white;
+  border: 1px solid #283154;
+  border-radius: 8px;
+  padding: 8px 14px;
+  margin: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: #53add4;
+}
+
+.sim-area {
+  background: radial-gradient(circle at center, #1a1e3a, #0f1120);
+  border: 1px solid #222a46;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+canvas {
+  width: 100%;
+  border-radius: 8px;
+  background-color: #0f1424;
+}
+
+.explain {
+  text-align: left;
+  color: #cfe9ff;
+  background-color: #141a2e;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+
+footer {
+  font-size: 13px;
+  color: #9fb1c7;
+  margin-top: 10px;
+}
