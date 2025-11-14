@@ -1,11 +1,12 @@
 @charset "UTF-8";
+@import "./reset.css";
 
 body {
+  margin: 0;
   background-color: #0f1120;
   color: #e6ecf6;
-  font-family: system-ui, sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   text-align: center;
-  margin: 0;
 }
 
 .container {
@@ -14,16 +15,22 @@ body {
   padding: 20px 0;
 }
 
-h1 {
+.main-heading {
   color: #53add4;
-  font-size: 24px;
-  letter-spacing: 0.5px;
+  font-size: 28px;
+  margin-bottom: 10px;
 }
 
 .intro {
   color: #bcd0e6;
-  font-size: 15px;
-  margin: 10px 0 20px 0;
+  font-size: 17px;
+  line-height: 1.7;
+  margin: 10px 0 22px 0;
+}
+
+/* Buttons */
+.buttons-box {
+  margin: 14px 0 22px 0;
 }
 
 button {
@@ -31,22 +38,23 @@ button {
   color: white;
   border: 1px solid #283154;
   border-radius: 8px;
-  padding: 8px 14px;
+  padding: 8px 16px;
   margin: 6px;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 button:hover {
   background-color: #53add4;
 }
 
-.sim-area {
-  background: radial-gradient(circle at center, #1a1e3a, #0f1120);
+/* Simulation Box */
+.sim-box {
+  background:  #1a1e3a;
   border: 1px solid #222a46;
   border-radius: 10px;
   padding: 10px;
-  margin: 20px 0;
+  margin: 25px 0;
 }
 
 canvas {
@@ -55,16 +63,44 @@ canvas {
   background-color: #0f1424;
 }
 
-.explain {
+/* Explanation Box */
+.explain-box {
   text-align: left;
   color: #cfe9ff;
   background-color: #141a2e;
-  padding: 10px 16px;
+  padding: 14px 18px;
   border-radius: 8px;
+  margin-top: 20px;
 }
 
-footer {
-  font-size: 13px;
+.explain-box h2 {
+  color: #53add4;
+  font-size: 22px;
+}
+
+.explain-box ul {
+  margin-left: 20px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* Footer */
+.footer {
+  font-size: 14px;
   color: #9fb1c7;
-  margin-top: 10px;
+  margin-top: 18px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .main-heading {
+    font-size: 22px;
+  }
+  .intro {
+    font-size: 15px;
+  }
+  button {
+    font-size: 14px;
+    padding: 7px 12px;
+  }
 }
