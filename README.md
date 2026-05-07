@@ -1,77 +1,104 @@
 # Rutherford Gold Foil Experiment Simulation
 
-## 📌 Overview
+##  Project Overview
 
-This project is an interactive web-based simulation of the Rutherford Gold Foil Experiment. It demonstrates how alpha particles behave when directed at a thin gold foil, helping users understand the structure of the atom.
+This project is an interactive web-based simulation of Rutherford’s Gold Foil Experiment. The simulation demonstrates how alpha particles behave when directed at a thin sheet of gold foil, helping users understand Rutherford’s discovery of the atomic nucleus.
 
----
+The project visually explains:
+- Most alpha particles pass straight through the atom
+- Some particles bend slightly
+- A few particles bounce back because of the dense nucleus
 
-## 🎯 Purpose
-
-The purpose of this simulation is to visually explain:
-
-* Atomic structure
-* Scattering of alpha particles
-* Discovery of the atomic nucleus
+This educational simulation was built using front-end web development technologies and focuses on interactive learning and responsive design.
 
 ---
 
-## 🚀 Features
+##  Live Demo
 
-* Interactive particle simulation
-* Visual representation of scattering
-* Easy-to-understand educational design
-* Responsive layout
+🔗 https://daljitkaur08.github.io/rutherford-simulation/
 
 ---
 
-## 🛠 Technologies Used
+##  Tech Stack
 
-* HTML
-* CSS
-* JavaScript
-
----
-
-## 📷 How It Works
-
-* Alpha particles are fired toward a thin gold foil
-* Most particles pass straight through
-* Some are deflected at angles
-* A few bounce back, showing the presence of a dense nucleus
+- HTML5
+- CSS3
+- JavaScript
+- GitHub Pages
 
 ---
 
-## 🔗 Live Demo
+##  Features
 
-👉 https://daljitkaur08.github.io/rutherford-simulation/
+- Interactive particle movement simulation
+- Start and Reset controls
+- Educational explanation section
+- Responsive layout
+- Modern dark-themed user interface
+- Animated alpha particle scattering effect
 
 ---
 
-## 💻 Source Code
+##  How to Install / Run
 
-👉 https://github.com/DaljitKaur08
+### Option 1 — Run Online
+
+Open the live project in your browser:
+
+https://daljitkaur08.github.io/rutherford-simulation/
 
 ---
 
-## 📚 Key Learnings
+### Option 2 — Run Locally
 
-* Atoms are mostly empty space
-* The nucleus is small and dense
-* Positive charge is concentrated at the center
+#### Step 1 — Clone Repository
+
+```bash
+git clone https://github.com/DaljitKaur08/rutherford-simulation.git
+```
+
+#### Step 2 — Open Project Folder
+
+Open the downloaded project folder on your computer.
+
+#### Step 3 — Run Project
+
+Open `index.html` in any web browser.
+
+No additional installation or dependencies are required.
+
+---
+
+## 📸 Screenshot
+
+![Rutherford Simulation](assets/images/Rutherford.png)
+
+---
+
+##  Learning Outcomes
+
+Through this project, I improved my skills in:
+- DOM Manipulation
+- JavaScript animations
+- Front-end web development
+- Responsive web design
+- GitHub project organization
+- Creating interactive educational applications
 
 ---
 
 ## 👩‍💻 Author
 
 Daljit Kaur
-Software Developer Student at MITT
-Winnipeg, Canada
+
+- GitHub: https://github.com/DaljitKaur08
+- LinkedIn: https://www.linkedin.com/in/daljit-kaur-mitt/
 
 ---
 
-## 📬 Contact
+## 📄 License
 
-* Email: [saini26daljit@gmail.com](mailto:saini26daljit@gmail.com)
-* GitHub: https://github.com/DaljitKaur08
-* LinkedIn: https://www.linkedin.com/in/daljit-kaur-mitt
+This project is licensed under the MIT License.
+
+
+
