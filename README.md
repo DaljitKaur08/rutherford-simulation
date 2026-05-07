@@ -87,7 +87,7 @@ Through this project, I improved my skills in:
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 Daljit Kaur
 
@@ -96,7 +96,7 @@ Daljit Kaur
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
 
